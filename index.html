@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naan Mudhalvan Project</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #d4b1f7, #a8c0f7); /* Gradient background */
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      width: 420px;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+      text-align: center;
+    }
+
+    h2 {
+      color: #5a189a;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    .details {
+      text-align: left;
+      color: #222;
+      font-size: 15px;
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .details b {
+      color: #111;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      background-color: #8e9dfc;
+      color: #fff;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #5a6efc;
+    }
+
+    .pdf-viewer {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>NAAN MUDHALVAN PROJECT</h2>
+
+    <div class="details">
+      <b>TEAM LEADER:</b> Madhubala T<br>
+      <b>TEAM MEMBERS:</b>
+      <ul>
+        <li>Nazeera S</li>
+        <li>Sandhiya C</li>
+        <li>Nikoshin S</li>
+      </ul>
+      <b>EMAIL:</b> anbumadhu2026@gmail.com <br>
+      <b>COLLEGE:</b> Emerald Heights College For Women, Ooty <br>
+      <b>PROJECT:</b> Garage Management
+    </div>
+
+    <div class="buttons">
+      <button class="btn" onclick="window.open('https://drive.google.com/file/d/1RnmXrH5tcSauBkl4Uk4WC2WdBDN1PZgH/view?usp=sharing')">Documentation</button>
+      <button class="btn" onclick="window.open('https://drive.google.com/file/d/1IJcM1YYcDHyw2R9irQcfsJgWjurG6kGp/view?usp=drive_link')">Demo Video</button>
+    </div>
+
+    <div class="pdf-viewer">
+      <iframe src="https://drive.google.com/file/d/1RnmXrH5tcSauBkl4Uk4WC2WdBDN1PZgH/view?usp=sharing"></iframe>
+    </div>
+  </div>
+</body>
+</html>
